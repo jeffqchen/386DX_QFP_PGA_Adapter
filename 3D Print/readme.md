@@ -4,7 +4,7 @@
 
 This project requires precsion during assembly. Therefore, I have designed a set of jigs to help.
 
-*Note: I ordered the stent in the dimension of 38x38mm, so it fits over the main PCB exactly.*
+*Note: I ordered the stencil in the dimension of 38x38mm, so it fits over the main PCB exactly.*
 
 Pasting Jig:
 
