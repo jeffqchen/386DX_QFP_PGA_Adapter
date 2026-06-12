@@ -8,11 +8,11 @@ This project requires precsion during assembly. Therefore, I have designed a set
 
 Pasting Jig:
 
-![Photo of Pasting Jig 1](pics/pasting_jig_1.jpg)
+![Photo of Pasting Jig](pics/pasting_jig_1.jpg)
 
 Pin Assemnbly Jig:
 
-![Photo of Pin Assmebly Jig 1](pics/pin_assembly_jig_1.jpg)
+![Photo of Pin Assmebly Jig](pics/pin_assembly_jig_1.jpg)
 
 ## Printing
 
@@ -32,15 +32,15 @@ If you are noticing the boards catching the jig, file down the edge where it is 
 
 Fit the PCB inside the cavity of the print, with the PGA pads facing up. Then, close the stencil on the top.
 
-![](pics/usage_Stencil_1.jpg)
+![Pasting Assembly with PCB and Stencil In Place](pics/usage_Stencil_1.jpg)
 
 To prevent the stencil from sliding when applying paste, put down some kepton tape on the sides of the stencil.
 
-![](pics/usage_Stencil_2.jpg)
+![Kepton Tape Applied to Stencil](pics/usage_Stencil_2.jpg)
 
 Carefully remove the tape first, then the stencil, with a pair of precision tweezers.
 
-![](pics/usage_Stencil_3.jpg)
+![After Removing Stencil](pics/usage_Stencil_3.jpg)
 
 ### Pin Assembly Jig
 
@@ -48,7 +48,7 @@ Using a pair of fine-tiped tweezers, insert all the pins one by one. They should
 
 After all pins are in place, consider brushing the top surface of the pins with a small amount of flux to help with soldering.
 
-![](pics/pin_assembly_jig_1.jpg)
+![Placing Pins Onto Holder PCB](pics/pin_assembly_jig_1.jpg)
 
 ### Soldering Preparations
 
@@ -56,24 +56,26 @@ With a pair of tweezers, loosen the main PCB from the pasting jig, using the hol
 
 Carefully flip the pasted main PCB and fit it onto the top of the Pin Assembly Jig. Press down lightly so contact is made. Do NOT press down too hard as that might redistribute the paste and make soldering difficult.
 
-![](pics/soldering_preparation_1.jpg)
+![Main PCB Closed On Top of Assembly](pics/soldering_preparation_1.jpg)
 
 Turn the entire assembly with the jig upside down and place on soldering surface (i.e. a heating plate)
 
-![](pics/soldering_preparation_2.jpg)
+![Assembly Flipper Upside Down](pics/soldering_preparation_2.jpg)
 
-Disembark the assembly from the jig by pressing down on the helper PCB with a tool (I used tweezers).
+Disembark the assembly from the jig by pressing down on the holder PCB with a tool (I used tweezers).
 
-![](pics/soldering_preparation_3.jpg)
+![Jig Removed from Assembly](pics/soldering_preparation_3.jpg)
 
 Finally, inspect that the pins are aligned properly with the pads.
 
-![](pics/soldering_preparation_4.jpg)
+*One of my pins is croocked in this photo. You need to look for similar issues.*
+
+![Final Inspection Before Soldering](pics/soldering_preparation_4.jpg)
 
 ## Troubleshooting Tips
 
-If a pin came loose after you removed the helper PCB to inspect your work, you will find it difficult to put it back without a proper tool, as the pin will try to float and become croocked.
+If a pin came loose after you removed the holder PCB to inspect your work, you will find it difficult to put it back without a proper tool, as the pin will try to float and become croocked.
 
-A hollowed syringe needle with correct diameter will help hold the loose pin as you apply hot air to solder it back down.
+A hollow syringe needle with correct diameter will help hold the loose pin as you apply hot air to solder it back down.
 
-![](pics/fix_loose_pin.jpg)
+![A Pin Is Held By Syringe Needle](pics/fix_loose_pin.jpg)
