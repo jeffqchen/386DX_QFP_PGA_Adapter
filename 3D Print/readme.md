@@ -1,17 +1,79 @@
-# 3D Printed Jigs for This Project
+# 3D Printed Jigs
 
-I successfully assembed a CPU using this project. In the process, I created a couple of 3D-printed jigs to make the job much easier.
+## Introduction
+
+This project requires precsion during assembly. Therefore, I have designed a set of jigs to help.
+
+*Note: I order the stent in the dimension of 38x38mm, so it fits on top of the board exactly.*
 
 Pasting Jig:
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/7eba7d5a-1c06-4303-a33f-01723ed416cb" />
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/fb51f237-a193-46e4-98a8-395fc7b91f33" /br>
+![Photo of Pasting Jig 1](pics/pasting_jig_1.jpg)
 
 Pin Assemnbly Jig:
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/5c1617b7-c36d-4a87-8341-c481702abe05" />
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/d0f49a2a-affc-4755-9299-3c82603c91d8" />
+![Photo of Pin Assmebly Jig 1](pics/pin_assembly_jig_1.jpg)
+
+## Printing
 
 Both files can be easily printed as-is.
 
-Note: I order the stent in the dimension of 38x38mm, so it fits on top of the board exactly.
+After printing, carefully inspect the inside and clean up cavities of both prints to make sure no debris is stuck inside, which will prevent fitting fo the PCB.
+
+## Preparation
+
+To make sure the PCBs will come out of the jigs smoothly, test fit them into the jigs.
+
+If you are noticing the boards catching the jig, file down the edge where it is not flat.
+
+## Usage
+
+### Pasting Assembly
+
+Fit the PCB inside the cavity of the print, with the PGA pads facing up. Then, close the stencil on the top.
+
+![](pics/usage_Stencil_1.jpg)
+
+To prevent the stencil from sliding when applying paste, put down some kepton tape on the sides of the stencil.
+
+![](pics/usage_Stencil_2.jpg)
+
+Carefully remove the tape first, then the stencil, with a pair of precision tweezers.
+
+![](pics/usage_Stencil_3.jpg)
+
+### Pin Assembly Jig
+
+Using a pair of fine-tiped tweezers, insert all the pins one by one. They should go in without too much resistance when inserted vertically.
+
+After all pins are in place, consider brushing the top surface of the pins with a small amount of flux to help with soldering.
+
+![](pics/pin_assembly_jig_1.jpg)
+
+### Soldering Preparations
+
+With a pair of tweezers, loosen the main PCB from the pasting jig, using the hollowed corners of the jig.
+
+Carefully flip the pasted main PCB and fit it onto the top of the Pin Assembly Jig. Press down lightly so contact is made. Do NOT press down too hard as that might redistribute the paste and make soldering difficult.
+
+![](pics/soldering_preparation_1.jpg)
+
+Turn the entire assembly with the jig upside down and place on soldering surface (i.e. a heating plate)
+
+![](pics/soldering_preparation_2.jpg)
+
+Disembark the assembly from the jig by pressing down on the helper PCB with a tool (I used tweezers).
+
+![](pics/soldering_preparation_3.jpg)
+
+Finally, inspect that the pins are aligned properly with the pads.
+
+![](pics/soldering_preparation_4.jpg)
+
+## Troubleshooting Tips
+
+If a pin came loose after you removed the helper PCB to inspect your work, you will find it difficult to put it back without a proper tool, as the pin will try to float and become croocked.
+
+A hollowed syringe needle with correct diameter will help hold the loose pin as you apply hot air to solder it back down.
+
+![](pics/fix_loose_pin.jpg)
